@@ -1,6 +1,3 @@
-
-Certainly! Below is a template for a README.md file tailored for your React application featuring a Toolbar with AlertButton components. You can adjust the details to fit your project's specifics or preferences.
-
 React Alert Button Toolbar
 This React application demonstrates the use of props and event handlers through a simple yet interactive example: a Toolbar component that contains multiple AlertButton components. Each button, when clicked, displays a unique alert message, showcasing dynamic behavior in React components.
 
@@ -36,6 +33,17 @@ This runs the app in development mode. Open http://localhost:3000 to view it in 
 
 Usage
 The application features a toolbar with buttons. Each button, when clicked, will display an alert with a message passed to it as a prop. This demonstrates how props can be used to customize child components and how event handlers are attached and handled in React.
+
+
+
+
+Using the app2.js file
+
+Toolbar Component
+The Toolbar component is enhanced to accept a buttons prop, which is an array of button properties. Each item in the array contains message and children properties, defining the custom alert message and button text, respectively. The map() function is used to iterate over the buttons array and dynamically render AlertButton components based on the provided properties.
+
+Custom Alert Buttons
+The AlertButton component, introduced in the previous assignment, handles the display of custom alert messages when clicked. It receives the message prop and uses it to trigger an alert with the specified message when the button is clicked.
 
 
 
